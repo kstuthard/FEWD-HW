@@ -30,15 +30,58 @@ a {
 
 
 /* Core Styles */
+
+.relaxr-corestyles p {
+  font-size: 26px;
+}
+
+.relax-corestyles p.featuredText {
+  font-style: italic;
+  font-size: 30px;
+
+}
+
+
 .relaxr-corestyles p {
   font-weight: normal;
 }
 
+.relax-corestyles h1,
+.relax-corestyles h2,
+.relax-corestyles h3,
+.relax-corestyles h4,
+.relax-corestyles h5,
+.relax-corestyles h6 {
+  color: #033048;
+  font-weight: 600;
+  margin-top;
+
+}
+
+.relax-corestyles h1 {
+  font-size: 40px;
+}
+
+.relax-corestyles h2 {
+  font-size: 32px;
+}
 
 
+.relax-corestyles h3 {
+  font-size: 26px;
+}
 
+.relax-corestyles h4 {
+  font-size: 20px;
+}
 
+.relax-corestyles h5 {
+  font-size: 18px;
+}
 
+.relax-corestyles h6 {
+  font-size: 16px;
+}
 
 
 

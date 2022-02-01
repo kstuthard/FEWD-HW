@@ -3,10 +3,39 @@
     margin: 0 10px 10px 10px;
 }
 
-.exerciseHeader {
 
+
+.exerciseHeader {
+    display: flex;
+    gap: 10px;
+    margin-bottom:10px;
 
 }
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+}
+
+
+.exerciseHeaderNav {
+    display: flex;
+    gap: 10px;
+    width: 20%;
+}
+
+.exerciseHeaderNav ul {
+    display: flex;
+   list-style-type: hidden;
+   gap: 10px;
+   width: 100%;
+}
+
+.exerciseHeaderNav ul li {
+min-width: 20%;
+
+}
+
 
 .exerciseHeaderLogo {
     width: 200px;
@@ -14,16 +43,21 @@
 
 }
 
-.exerciseHeaderNav {
-
+.exerciseHeaderNav {  
+    display: flex;
+   gap: 10px;
+   width: 100%;
 }
 
 .exerciseHeaderNav ul {
-
+display: flex;
+list-style-type: none;
+gap: 10px;
+justify-content: flex-end;
 }
 
 .exerciseHeaderNav ul li {
-
+    
 
 }
 
@@ -31,31 +65,55 @@
 /* Main */
 
 .exerciseMain {
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 .exerciseMainLeftNav {
 
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 25%;
 }
 
 .exerciseMainContent {
-
+display: flex;
+flex-wrap: wrap;
+flex-grow: 4;
 
 }
 
 .exerciseMainContent > * {
-    margin: 0;
+    display: flex;
+   list-style-type: none;
+    gap: 10px;
+   width: 100%;
 }
 
 .exerciseMainContentBanner {
-
+    display: flex;
+flex-wrap: wrap;
+    margin-bottom: 10px;
+    gap: 10px;
 }
 
 .exerciseMainContentSubBanner {
-
+    display: flex;
+    flex-wrap: wrap;
+        margin-bottom: 10px;
+        gap: 10px;
 }
 
 .exerciseMainContentBlock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    gap: 10px;
+    margin-bottom: 10px;
+    
 
 }
