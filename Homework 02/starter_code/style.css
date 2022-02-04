@@ -70,7 +70,7 @@ p {
 .main-nav li a,
 .main-nav li a:visited {
   color: #fff;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .main-nav li a:hover {
